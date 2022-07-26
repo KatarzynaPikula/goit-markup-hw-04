@@ -127,9 +127,7 @@ li {
 	margin-bottom: 94px;
 
 	text-align: center;
-	background-image: url("https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-04/main/images/Img(
-			10
-		).jpg");
+	background-image: url(https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-04/main/images/Img-bck.jpg);
 }
 
 .title-page {
@@ -448,4 +446,17 @@ ul {
 }
 .section {
 	padding: 94px 0px 94px 0px;
+}
+.svg-loremi {
+	width: 270px;
+	height: 120px;
+
+	background-color: var(--third-b-color);
+	border: 0px;
+}
+.svg-loremi:hover {
+	color: var(--active-color);
+}
+.svg-loremi:focus {
+	color: var(--active-color);
 }
