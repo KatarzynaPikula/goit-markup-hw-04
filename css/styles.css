@@ -128,6 +128,8 @@ li {
 
 	text-align: center;
 	background-image: url(https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-04/main/images/Img-bck.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .title-page {
@@ -448,15 +450,44 @@ ul {
 	padding: 94px 0px 94px 0px;
 }
 .svg-loremi {
+	fill: var(--first-color);
+	border: 0px;
 	width: 270px;
 	height: 120px;
+	position: static;
 
 	background-color: var(--third-b-color);
-	border: 0px;
 }
 .svg-loremi:hover {
-	color: var(--active-color);
+	fill: var(--active-color);
 }
 .svg-loremi:focus {
-	color: var(--active-color);
+	fill: var(--second-b-color);
+}
+
+.svg-contacts {
+	fill: var(--descr-color);
+	border: 0px;
+	width: 16px;
+	height: 12px;
+	position: static;
+}
+.svg-contacts:hover {
+	fill: var(--active-color);
+}
+.svg-contacts:focus {
+	fill: var(--active-color);
+}
+.svg-socialmedia {
+	width: 20px;
+	height: 20px;
+	border: 0px;
+	position: static;
+	fill: #afb1b8;
+}
+.svg-socialmedia:hover {
+	fill: var(--active-color);
+}
+.svg-socialmedia:focus {
+	fill: var(--active-color);
 }
