@@ -71,7 +71,7 @@ li {
 	padding-left: 93px;
 }
 .main-contacts {
-	padding-left: 364px;
+	padding-left: 345px;
 	display: flex;
 	color: var(--descr-color);
 	text-decoration: none;
@@ -370,7 +370,7 @@ ul {
 	border-radius: 0px 0px 4px 4px;
 	margin: auto;
 	width: 270px;
-	height: 368px;
+	height: 428px;
 }
 .customer-list {
 	list-style-type: none;
@@ -517,6 +517,8 @@ ul {
 }
 .svg-socialmedia {
 	border: 0px;
+	width: 40px;
+	height: 40px;
 
 	fill: #afb1b8;
 }
@@ -526,7 +528,11 @@ ul {
 .svg-socialmedia:focus {
 	fill: var(--active-color);
 }
-
+.svg-socialmedia-line {
+	align-items: center;
+	margin-left: 32px;
+	margin-bottom: 30px;
+}
 .svg-customer {
 	width: 170px;
 	height: 92px;
