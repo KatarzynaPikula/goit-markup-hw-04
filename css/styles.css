@@ -80,12 +80,14 @@ li {
 .contact-links-top-mail {
 	text-decoration: none;
 	color: var(--descr-color);
+	padding-right: 30px;
+	align-items: center;
 }
 
 .contact-links-top-tel {
-	padding-left: 50px;
 	text-decoration: none;
 	color: var(--descr-color);
+	align-items: center;
 }
 
 .contact-links-top-mail:hover,
@@ -131,7 +133,9 @@ li {
 	margin-bottom: 94px;
 
 	text-align: center;
-	background-image: url(https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-04/main/images/Img-bck.jpg);
+
+	background: #2f303a
+		url(https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-04/main/images/Img-bck.jpg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
@@ -327,21 +331,10 @@ ul {
 }
 
 .clients-list-icon {
-	width: 106px;
-	height: 60px;
-	gap: 30px;
+	width: 100%;
+	height: 100%;
+}
 
-	align-items: center;
-	fill: var(--fill-icon-color);
-}
-.clients-list-icon:hover {
-	fill: var(--active-color);
-	border: 1px solid #2196f3;
-}
-.clients-list-icon:focus {
-	fill: var(--active-color);
-	border: 1px solid #2196f3;
-}
 .clients-list-container {
 	width: 170px;
 	height: 92px;
@@ -353,7 +346,12 @@ ul {
 	justify-content: center;
 	align-items: center;
 	border-radius: 4px;
-	
+}
+.clients-list-container:focus,
+.clients-list-container:active,
+.clients-list-container:hover {
+	fill: var(--active-color);
+	border: 1px solid #2196f3;
 }
 
 .team {
@@ -424,6 +422,13 @@ ul {
 	letter-spacing: 0.03em;
 	color: var(--second-color);
 	background: var(--second-b-color);
+	flex-direction: row;
+}
+.footer-location {
+	display: flex;
+
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 .footer-nav {
 	padding-top: 60px;
@@ -438,9 +443,10 @@ ul {
 }
 .ul-footer {
 	list-style-type: none;
-	flex-direction: column;
 
 	display: flex;
+	width: 246px;
+	display: table-column;
 }
 
 .footer-contact-mail {
@@ -538,6 +544,7 @@ ul {
 	margin: 0 5px 0 5px;
 	display: flex;
 	align-items: center;
+	fill: var(--fill-icon-color);
 }
 .svg-socialmedia-line {
 	padding-left: 27px;
@@ -552,9 +559,8 @@ ul {
 	width: 20px;
 	height: 20px;
 	align-items: center;
-
-	fill: var(--fill-icon-color);
 }
+
 .svg-socialmedia-container:hover {
 	fill: var(--second-color);
 	border-radius: 50%;
@@ -565,27 +571,31 @@ ul {
 	background-color: var(--active-color);
 	border-radius: 50%;
 }
+.svg-socialmedia-container:active {
+	fill: var(--second-color);
+	background-color: var(--active-color);
+	border-radius: 50%;
+}
 
 .footer-social {
-	margin-left: 70px;
-	display: block;
+	padding-left: 70px;
 }
 .footer-social-title {
 	color: var(--second-color);
 	text-transform: uppercase;
-	margin: 0;
-	padding-top: 72px;
+
 	font-family: "Roboto";
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	margin-top: 72px;
 }
 .footer-social-list {
 	list-style: none;
 	margin: 0;
-	padding-top: 20px;
+	margin-top: 20px;
 	width: 100%;
 }
 .footer-social-list-element {
@@ -598,7 +608,7 @@ ul {
 	fill: var(--second-color);
 	width: 44px;
 	height: 44px;
-	gap: 10px;
+	margin-right: 10px;
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 }
@@ -613,15 +623,20 @@ ul {
 
 .icon-envelope {
 	fill: var(--descr-color);
-	width: 16px;
-	height: 12px;
+
+	padding-right: 10px;
+	align-items: center;
+}
+
+.icon-smartphone {
+	fill: var(--descr-color);
+	padding-right: 10px;
+	align-items: center;
 }
 .icon-envelope:hover {
 	fill: var(--active-color);
 }
-.icon-smartphone {
-	fill: var(--descr-color);
-}
-.icon-smartphone: {
+
+.icon-smartphone:hover {
 	fill: var(--active-color);
 }
