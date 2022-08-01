@@ -82,18 +82,21 @@ li {
 	color: var(--descr-color);
 	padding-right: 30px;
 	align-items: center;
+	fill: var(--descr-color);
 }
 
 .contact-links-top-tel {
 	text-decoration: none;
 	color: var(--descr-color);
 	align-items: center;
+	fill: var(--descr-color);
 }
 
 .contact-links-top-mail:hover,
 .contact-links-top-mail:focus,
 .contact-links-top-mail:active {
 	color: var(--active-color);
+	fill: var(--active-color);
 
 	text-decoration: none;
 }
@@ -101,6 +104,7 @@ li {
 .contact-links-top-tel:focus,
 .contact-links-top-tel:active {
 	color: var(--active-color);
+	fill: var(--active-color);
 	text-decoration: none;
 }
 
@@ -623,21 +627,11 @@ ul {
 }
 
 .icon-envelope {
-	fill: var(--descr-color);
-
 	padding-right: 10px;
 	align-items: center;
 }
 
 .icon-smartphone {
-	fill: var(--descr-color);
 	padding-right: 10px;
 	align-items: center;
-}
-.icon-envelope:hover {
-	fill: var(--active-color);
-}
-
-.icon-smartphone:hover {
-	fill: var(--active-color);
 }
